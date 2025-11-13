@@ -3305,63 +3305,63 @@
 <h1 id="python网页爬虫">python网页爬虫<a class="headerlink" href="#python网页爬虫" title="Permanent link"></a></h1>
 <h2 id="f12提取关键请求信息">F12提取关键请求信息<a class="headerlink" href="#f12提取关键请求信息" title="Permanent link"></a></h2>
 <h3 id="准备阶段">准备阶段<a class="headerlink" href="#准备阶段" title="Permanent link"></a></h3>
-<p>打开目标网页（确保需爬取的内容已显示）
-按 F12（或 Ctrl+Shift+I）调出开发者工具
-切换至「Network（网络）」面板，勾选「Preserve log（保留日志）」</p>
+<p>打开目标网页（确保需爬取的内容已显示）<br />
+按 F12（或 Ctrl+Shift+I）调出开发者工具<br />
+切换至「Network（网络）」面板，勾选「Preserve log（保留日志）」  </p>
 <h3 id="目标请求快速排查">目标请求快速排查<a class="headerlink" href="#目标请求快速排查" title="Permanent link"></a></h3>
-<p>一、必查正向特征（符合越多，越可能是目标请求）
-URL 包含关键词：data、list、api、query、get、fetch、info、content、item、detail
-请求方法：GET/POST（多数数据接口用这两种，PUT/DELETE 可暂不优先关注）
-Response 格式：JSON（最易解析）或 HTML 片段（含目标文本 / 数值）
-响应大小：大于 1KB（数据量通常比静态资源大，排除几十字节的无效请求）
-参数关联性：URL/Payload 含与目标相关的参数（如 id、page、keyword、category）
-二、快速排除无效请求（直接跳过这类 XHR）
-URL 含静态资源标识：icon、img、image、css、js、font、svg、png、jpg
-响应状态码：404（不存在）、403（无权限，暂不处理）、500（服务器错误）
-响应内容：空数据、纯广告信息、统计类数据（如 pv/uv、埋点数据）
-命名无意义：URL 含随机字符串（如 “a1b2c3”）且 Response 无目标关键词
-请求类型关联：与页面操作无关（如未点击 “加载更多” 却出现的分页请求）
-三、目标数据验证三步法（确认是否为最终目标）
-打开请求的「Response」面板，按 Ctrl+F 搜索目标关键词（如商品名、价格、文章标题）
-若搜索到，核对数据格式是否完整（如 JSON 中字段是否齐全，HTML 是否含完整内容）
-复制 Request URL 到浏览器新标签页，访问后确认返回数据与面板一致（排除临时失效接口）
-四、紧急排查技巧（卡顿时用）
-清空 Network 日志（点击「Clear」图标），重新触发数据加载（刷新 / 点击按钮），只看新出现的 XHR
-若仍找不到，切换「Filter」为 “All”，再按 “Size” 列倒序排序，优先查看大体积请求
-用「Preview」面板快速浏览 JSON 结构，重点看 “data”“result”“list” 节点下的内容</p>
+<p>一、必查正向特征（符合越多，越可能是目标请求）<br />
+URL 包含关键词：data、list、api、query、get、fetch、info、content、item、detail<br />
+请求方法：GET/POST（多数数据接口用这两种，PUT/DELETE 可暂不优先关注）<br />
+Response 格式：JSON（最易解析）或 HTML 片段（含目标文本 / 数值）<br />
+响应大小：大于 1KB（数据量通常比静态资源大，排除几十字节的无效请求）<br />
+参数关联性：URL/Payload 含与目标相关的参数（如 id、page、keyword、category）<br />
+二、快速排除无效请求（直接跳过这类 XHR）<br />
+URL 含静态资源标识：icon、img、image、css、js、font、svg、png、jpg<br />
+响应状态码：404（不存在）、403（无权限，暂不处理）、500（服务器错误）<br />
+响应内容：空数据、纯广告信息、统计类数据（如 pv/uv、埋点数据）<br />
+命名无意义：URL 含随机字符串（如 “a1b2c3”）且 Response 无目标关键词<br />
+请求类型关联：与页面操作无关（如未点击 “加载更多” 却出现的分页请求）  <br />
+三、目标数据验证三步法（确认是否为最终目标）<br />
+打开请求的「Response」面板，按 Ctrl+F 搜索目标关键词（如商品名、价格、文章标题）<br />
+若搜索到，核对数据格式是否完整（如 JSON 中字段是否齐全，HTML 是否含完整内容）<br />
+复制 Request URL 到浏览器新标签页，访问后确认返回数据与面板一致（排除临时失效接口）<br />
+四、紧急排查技巧（卡顿时用）<br />
+清空 Network 日志（点击「Clear」图标），重新触发数据加载（刷新 / 点击按钮），只看新出现的 XHR<br />
+若仍找不到，切换「Filter」为 “All”，再按 “Size” 列倒序排序，优先查看大体积请求<br />
+用「Preview」面板快速浏览 JSON 结构，重点看 “data”“result”“list” 节点下的内容  </p>
 <h3 id="提取关键信息">提取关键信息<a class="headerlink" href="#提取关键信息" title="Permanent link"></a></h3>
-<p>点击目标请求，查看「Headers（请求头）」
-复制「Request URL」（爬虫请求地址）
-记录请求方法（GET/POST）
-提取必要参数：GET 从「Query String Parameters」获取，POST 从「Payload」获取
-复制关键请求头（User-Agent、Cookie、Referer 等，用于模拟浏览器）
-切换至「Response（响应）」面板
-确认数据格式（JSON/HTML）及完整性（与网页显示内容一致）
-复制响应数据备用（用于验证爬虫返回结果）</p>
+<p>点击目标请求，查看「Headers（请求头）」<br />
+复制「Request URL」（爬虫请求地址）<br />
+记录请求方法（GET/POST）<br />
+提取必要参数：GET 从「Query String Parameters」获取，POST 从「Payload」获取<br />
+复制关键请求头（User-Agent、Cookie、Referer 等，用于模拟浏览器）<br />
+切换至「Response（响应）」面板<br />
+确认数据格式（JSON/HTML）及完整性（与网页显示内容一致）<br />
+复制响应数据备用（用于验证爬虫返回结果）  </p>
 <h3 id="验证与备用方案">验证与备用方案<a class="headerlink" href="#验证与备用方案" title="Permanent link"></a></h3>
-<p>若接口数据完整：直接用提取的 URL、参数、请求头开发爬虫
-若接口无目标数据：切换至「Elements（元素）」面板，复制对应 HTML 节点（静态页面适用）
-测试接口：复制 Request URL 到浏览器地址栏，验证是否能正常返回数据</p>
+<p>若接口数据完整：直接用提取的 URL、参数、请求头开发爬虫<br />
+若接口无目标数据：切换至「Elements（元素）」面板，复制对应 HTML 节点（静态页面适用）<br />
+测试接口：复制 Request URL 到浏览器地址栏，验证是否能正常返回数据  </p>
 <h3 id="反爬配置准备">反爬配置准备<a class="headerlink" href="#反爬配置准备" title="Permanent link"></a></h3>
-<p>整理请求头信息，确保爬虫包含 User-Agent、Cookie 等关键字段
+<p>整理请求头信息，确保爬虫包含 User-Agent、Cookie 等关键字段<br />
 记录参数规则（如时间戳、签名等动态参数，需后续模拟生成）</p>
 <h2 id="基础网络请求工具">基础网络请求工具<a class="headerlink" href="#基础网络请求工具" title="Permanent link"></a></h2>
 <p>用于发送 HTTP/HTTPS 请求，获取网页原始数据（HTML、JSON 等）。
 requests
-最常用的 HTTP 库，语法简洁，支持 GET/POST、会话保持、代理、Cookie、超时设置等。
-适合爬取静态页面（内容在初始 HTML 中），是爬虫入门首选。</p>
+最常用的 HTTP 库，语法简洁，支持 GET/POST、会话保持、代理、Cookie、超时设置等。<br />
+适合爬取静态页面（内容在初始 HTML 中），是爬虫入门首选。  </p>
 <h2 id="解析工具处理请求返回的数据">解析工具（处理请求返回的数据）<a class="headerlink" href="#解析工具处理请求返回的数据" title="Permanent link"></a></h2>
-<p>用于从 HTML/XML/JSON 中提取目标信息（如文本、链接、属性等），前文已提及，此处简要汇总：
-BeautifulSoup：解析 HTML/XML，容错性强，适合简单结构。
-lxml：高效解析库，支持 XPath 和标签树操作，速度快，适合复杂结构。
-PyQuery：模仿 jQuery 语法，支持 CSS 选择器，适合前端开发者。
-json 库：解析 JSON 数据（接口返回的结构化数据常用）。
-re（正则表达式）：辅助提取固定格式内容（如手机号、邮箱）。</p>
+<p>用于从 HTML/XML/JSON 中提取目标信息（如文本、链接、属性等），前文已提及，此处简要汇总：<br />
+BeautifulSoup：解析 HTML/XML，容错性强，适合简单结构。<br />
+lxml：高效解析库，支持 XPath 和标签树操作，速度快，适合复杂结构。<br />
+PyQuery：模仿 jQuery 语法，支持 CSS 选择器，适合前端开发者。<br />
+json 库：解析 JSON 数据（接口返回的结构化数据常用）。<br />
+re（正则表达式）：辅助提取固定格式内容（如手机号、邮箱）。  </p>
 <h2 id="动态页面爬取工具javascript-渲染内容">动态页面爬取工具（JavaScript 渲染内容）<a class="headerlink" href="#动态页面爬取工具javascript-渲染内容" title="Permanent link"></a></h2>
 <p>针对 JavaScript 动态加载的内容（如异步加载、点击后生成的内容），普通请求工具无法直接获取，需模拟浏览器行为。</p>
 <h3 id="selenium">Selenium<a class="headerlink" href="#selenium" title="Permanent link"></a></h3>
-<p>自动化测试工具，可控制真实浏览器（Chrome、Firefox 等）执行点击、输入等操作，获取渲染后的完整页面。
-支持无头模式（无界面运行），适合处理复杂交互场景（如登录、滑块验证）。</p>
+<p>自动化测试工具，可控制真实浏览器（Chrome、Firefox 等）执行点击、输入等操作，获取渲染后的完整页面。<br />
+支持无头模式（无界面运行），适合处理复杂交互场景（如登录、滑块验证）。  </p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -3381,8 +3381,8 @@ re（正则表达式）：辅助提取固定格式内容（如手机号、邮箱
 <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
 </code></pre></div></td></tr></table></div>
 <h3 id="playwright">Playwright<a class="headerlink" href="#playwright" title="Permanent link"></a></h3>
-<p>微软推出的自动化工具，支持 Chrome、Firefox、WebKit 浏览器，API 更简洁，内置等待机制，稳定性优于 Selenium。
-支持同步 / 异步两种模式，适合处理现代前端框架（React、Vue）生成的动态页面。
+<p>微软推出的自动化工具，支持 Chrome、Firefox、WebKit 浏览器，API 更简洁，内置等待机制，稳定性优于 Selenium。<br />
+支持同步 / 异步两种模式，适合处理现代前端框架（React、Vue）生成的动态页面。<br />
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -3413,9 +3413,9 @@ scrapy<span class="w"> </span>genspider<span class="w"> </span>example<span clas
 <h2 id="代理与反反爬工具">代理与反反爬工具<a class="headerlink" href="#代理与反反爬工具" title="Permanent link"></a></h2>
 <p>应对网站反爬机制（如 IP 封禁、UA 检测、验证码）。</p>
 <h3 id="proxypool">ProxyPool<a class="headerlink" href="#proxypool" title="Permanent link"></a></h3>
-<p>代理池工具，自动抓取、验证免费代理，提供 API 供爬虫调用，解决 IP 被封问题。
-fake_useragent
-生成随机 User-Agent，模拟不同浏览器请求，避免因固定 UA 被识别。
+<p>代理池工具，自动抓取、验证免费代理，提供 API 供爬虫调用，解决 IP 被封问题。<br />
+fake_useragent<br />
+生成随机 User-Agent，模拟不同浏览器请求，避免因固定 UA 被识别。<br />
 示例：
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
@@ -3427,20 +3427,20 @@ fake_useragent
 </code></pre></div></td></tr></table></div>
 简单验证码识别工具，支持数字、字母、滑块验证码（ddddocr 对中文验证码友好）。</p>
 <h2 id="数据存储工具">数据存储工具<a class="headerlink" href="#数据存储工具" title="Permanent link"></a></h2>
-<p>爬取的数据需持久化存储，常用工具：
-文件存储：csv（表格数据）、json（结构化数据）、pandas（数据分析 + 存储）。
-数据库：
-关系型：MySQL（配合 pymysql 库）、PostgreSQL。
+<p>爬取的数据需持久化存储，常用工具：<br />
+文件存储：csv（表格数据）、json（结构化数据）、pandas（数据分析 + 存储）。<br />
+数据库：<br />
+关系型：MySQL（配合 pymysql 库）、PostgreSQL。<br />
 非关系型：MongoDB（配合 pymongo 库，适合存储非结构化数据）、Redis（缓存或分布式爬虫去重）。</p>
 <h2 id="其他辅助工具">其他辅助工具<a class="headerlink" href="#其他辅助工具" title="Permanent link"></a></h2>
-<p>Fiddler / Charles：抓包工具，分析网页请求（尤其动态页面的 API 接口）。
-robots.txt 解析：robots-parser 库，遵守网站爬虫协议。
-多线程 / 异步：threading（多线程）、aiohttp（异步请求，提升效率）。</p>
+<p>Fiddler / Charles：抓包工具，分析网页请求（尤其动态页面的 API 接口）。<br />
+robots.txt 解析：robots-parser 库，遵守网站爬虫协议。<br />
+多线程 / 异步：threading（多线程）、aiohttp（异步请求，提升效率）。  </p>
 <h2 id="工具选择建议">工具选择建议<a class="headerlink" href="#工具选择建议" title="Permanent link"></a></h2>
-<p>简单静态页爬取：requests + BeautifulSoup/lxml。
-动态页爬取：Playwright（优先）或 Selenium。
-大规模 / 结构化爬取：Scrapy。
-处理反爬：代理池 + 随机 UA + 验证码识别工具。</p>
+<p>简单静态页爬取：requests + BeautifulSoup/lxml。<br />
+动态页爬取：Playwright（优先）或 Selenium。<br />
+大规模 / 结构化爬取：Scrapy。<br />
+处理反爬：代理池 + 随机 UA + 验证码识别工具。  </p>
 
 
   
