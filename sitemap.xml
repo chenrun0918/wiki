@@ -2,647 +2,672 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://等待更新ur/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/edit-landing/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://等待更新ur/Crawler/</loc>
+         <lastmod>2025-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://等待更新ur/Crawler/re/</loc>
+         <lastmod>2025-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://等待更新ur/Crawler/threading/</loc>
+         <lastmod>2025-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://等待更新ur/Crawler/web_crawler/</loc>
+         <lastmod>2025-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://等待更新ur/Crawler/xpath/</loc>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/binary-lifting/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/binary/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/bubble-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/bucket-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/complexity/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/construction/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/counting-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/divide-and-conquer/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/enumerate/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/greedy/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/heap-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/insertion-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/merge-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/prefix-sum/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/quick-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/radix-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/selection-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/shell-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/simulate/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/sort-intro/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/stl-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/tim-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/tournament-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/basic/use-of-sort/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/2-3-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/aa-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/avl/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/b-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/balanced-in-seg/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/binary-heap/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/bit-in-block-array/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/block-array/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/block-list/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/bplus-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/bst/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/cartesian-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/decompose/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/divide-combine/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/dividing/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/dsu-complexity/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/dsu/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/ett/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/fenwick/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/finger-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/hash/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/heap/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/huffman-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/kdt/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/lct/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/leafy-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/leftist-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/li-chao-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/linked-list/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/llrbt/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/monotonous-queue/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/monotonous-stack/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/pairing-heap/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/persistent-balanced/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/persistent-block-array/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/persistent-heap/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/persistent-seg/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/persistent-trie/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/persistent/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/pq-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/queue/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/rbtree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/sbt/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/seg-beats/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/seg-in-balanced/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/seg-in-bit/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/seg-in-seg/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/seg/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/sgt/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/skiplist/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/sparse-table/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/splay/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/sqrt-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/stack/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/top-tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/treap/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/tree-decompose/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/ds/wblt/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/array/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/basic/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/branch/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/class/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/const/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/cpp-other-langs/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/file-op/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/func/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/helloworld/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/java-pro/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/java/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/lambda/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/loop/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/namespace/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/new/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/op-overload/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/op/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/optimizations/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/pas-cpp/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/pointer/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/python/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/reference/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/struct/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/union/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/value-category/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/var/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/algorithm/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/associative-container/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/bitset/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/container-adapter/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/container/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/iterator/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/pair/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/sequence-container/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/string/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/csl/unordered-container/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/pb-ds/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/pb-ds/pq/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/lang/pb-ds/tree/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/tools/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://等待更新ur/tools/git/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
